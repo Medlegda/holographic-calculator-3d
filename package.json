@@ -1,7 +1,9 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "holographic-calculator-3d",
+  "version": "1.0.0",
   "private": true,
+  "author": "Ahsan Khizar",
+  "description": "A futuristic 3D holographic calculator with stunning visual effects",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

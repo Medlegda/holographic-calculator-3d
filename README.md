@@ -1,6 +1,8 @@
-# 🌟 Holographic Calculator - The Future of Math
+# 🌟 Holographic Calculator 3D
 
-Welcome to the world's first **3D Holographic Interactive Calculator** - where mathematics transcends reality and becomes pure digital magic!
+A futuristic 3D holographic calculator with stunning visual effects and multiple themes. Experience mathematics like never before with floating 3D elements, particle effects, and an immersive holographic interface.
+
+![Calculator Preview](./public/calculator-preview.png)
 
 ## ✨ Features
 
@@ -13,37 +15,36 @@ Welcome to the world's first **3D Holographic Interactive Calculator** - where m
 - **🎮 Interactive Elements**: Smooth animations and hover effects
 - **♿ Accessible**: Touch-friendly buttons and clear visual feedback
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-- Node.js 18+ 
-- npm or yarn
+- Node.js 18 or higher
+- npm, yarn, or pnpm
 
 ### Installation
 
-1. **Clone the repository**
-   \`\`\`bash
-   git clone <repository-url>
-   cd holographic-calculator
-   \`\`\`
+```bash
+# Clone the repository
+git clone https://github.com/ahsankhizar5/holographic-calculator-3d.git
+cd holographic-calculator-3d
 
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   yarn install
-   \`\`\`
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
 
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   \`\`\`
+# Start development server
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the calculator.
 
 ## 🎯 Usage
 
@@ -55,68 +56,69 @@ Welcome to the world's first **3D Holographic Interactive Calculator** - where m
 
 ## 🛠️ Tech Stack
 
-- **Next.js 14** - React framework with App Router
-- **React Three Fiber** - 3D graphics and animations
-- **Three.js** - WebGL 3D library
-- **Tailwind CSS** - Utility-first CSS framework
-- **TypeScript** - Type-safe JavaScript
-- **Drei** - React Three Fiber helpers
+| Technology | Purpose |
+|------------|---------|
+| **Next.js 14** | React framework with App Router |
+| **React Three Fiber** | 3D graphics and animations |
+| **Three.js** | WebGL 3D library |
+| **Tailwind CSS** | Utility-first CSS framework |
+| **TypeScript** | Type-safe JavaScript |
+| **Drei** | React Three Fiber helpers |
+
+## 🎨 Available Themes
+
+| Theme | Description | Colors |
+|-------|-------------|--------|
+| 🌟 **Holographic** | Classic holographic aesthetic | Cyan & Blue |
+| ⚡ **Neon City** | Cyberpunk-inspired design | Hot Pink & Electric Green |
+| 🌌 **Cosmic** | Deep space ambiance | Purple & Gold |
+| 💚 **Matrix** | Retro computer vibes | Matrix Green |
 
 ## 📱 Responsive Design
 
 The calculator adapts perfectly to all screen sizes:
 
-- **Mobile (< 640px)**: Compact layout with touch-optimized buttons
-- **Tablet (640px+)**: Balanced layout with medium sizing
-- **Desktop (1024px+)**: Full experience with all visual effects
+- **📱 Mobile (< 640px)**: Compact layout with touch-optimized buttons
+- **📟 Tablet (640px - 1024px)**: Balanced layout with medium sizing  
+- **🖥️ Desktop (1024px+)**: Full experience with all visual effects
 
-## 🎨 Themes
+## 🎯 Usage
 
-### 🌟 Holographic
-- Rainbow particle effects
-- Cyan and blue color scheme
-- Classic holographic aesthetic
+1. **Basic Operations**: Click number buttons and operators like a regular calculator
+2. **Theme Switching**: Use the dropdown in the top-right corner
+3. **3D Interaction**: Drag to rotate the 3D background (desktop only)
+4. **History**: View recent calculations in the floating history panel
+5. **Mobile**: Fully touch-optimized for mobile devices
 
-### ⚡ Neon City
-- Hot pink and electric green
-- Cyberpunk-inspired design
-- Urban neon atmosphere
+## 📁 Project Structure
 
-### 🌌 Cosmic
-- Purple and gold space theme
-- Cosmic particle effects
-- Deep space ambiance
+```
+holographic-calculator-3d/
+├── app/                    # Next.js App Router
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Main calculator page
+├── components/            # Reusable UI components
+│   ├── theme-provider.tsx # Theme context provider
+│   └── ui/               # UI component library
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions
+├── public/               # Static assets
+├── styles/               # Additional CSS files
+├── package.json          # Dependencies and scripts
+├── tailwind.config.js    # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+└── README.md            # Project documentation
+```
 
-### 💚 Matrix
-- Pure green digital aesthetic
-- Matrix-inspired particles
-- Retro computer vibes
+## 🚀 Available Scripts
 
-## 🔧 Development
-
-### Project Structure
-
-\`\`\`
-holographic-calculator/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── lib/
-│   └── utils.ts
-├── public/
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── README.md
-\`\`\`
-
-### Building for Production
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
 
 ## 🌟 Features Roadmap
 
@@ -132,11 +134,23 @@ npm start
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Developer
+
+**Ahsan Khizar**
+- GitHub: [@ahsankhizar5](https://github.com/ahsankhizar5)
+- LinkedIn: [Connect with me](https://linkedin.com/in/ahsankhizar)
 
 ## 🙏 Acknowledgments
 
@@ -147,4 +161,10 @@ This project is licensed under the MIT License.
 
 ---
 
+<div align="center">
+
 **Experience the future of calculation today!** ✨🧮🚀
+
+Made with ❤️ by [Ahsan Khizar](https://github.com/ahsankhizar5)
+
+</div>

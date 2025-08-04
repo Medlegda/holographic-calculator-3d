@@ -10,9 +10,8 @@ export const metadata: Metadata = {
   description:
     "Experience the world's first 3D holographic calculator with stunning visual effects and magical interactions.",
   keywords: ["calculator", "3D", "holographic", "interactive", "math", "futuristic"],
-  authors: [{ name: "Holographic Calculator Team" }],
+  authors: [{ name: "Ahsan Khizar", url: "https://github.com/ahsankhizar5" }],
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
