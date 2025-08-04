@@ -2,7 +2,7 @@
 
 A futuristic 3D holographic calculator with stunning visual effects and multiple themes. Experience mathematics like never before with floating 3D elements, particle effects, and an immersive holographic interface.
 
-![Calculator Preview](./public/calculator-preview.png)
+![Calculator Preview](./public/preview.png)
 
 ## ✨ Features
 

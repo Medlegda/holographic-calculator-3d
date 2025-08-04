@@ -1,5 +1,5 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 
@@ -11,7 +11,12 @@ export const metadata: Metadata = {
     "Experience the world's first 3D holographic calculator with stunning visual effects and magical interactions.",
   keywords: ["calculator", "3D", "holographic", "interactive", "math", "futuristic"],
   authors: [{ name: "Ahsan Khizar", url: "https://github.com/ahsankhizar5" }],
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 }
 
 export default function RootLayout({
